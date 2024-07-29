@@ -1,0 +1,28 @@
+.form-input {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  padding: 0.6rem 0.5rem;
+  margin-bottom: 20px;
+  color: black;
+}
+.form-input::placeholder {
+  color: red;
+}
+.form-input:focus {
+  outline: none;
+}
+.form-error {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 4px;
+  color: red;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.color {
+  color: white;
+}
